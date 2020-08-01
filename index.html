@@ -3,10 +3,10 @@
 
 <head>
  <title>envyniv's hell</title>
- <link rel="icon" href="icon/favicon16.png" sizes="16x16" type="image/png">
- <link rel="icon" href="icon/favicon32.png" sizes="32x32" type="image/png">
- <link rel="icon" href="icon/favicon64.png" sizes="64x64" type="image/png">
- <link rel="icon" href="icon/favicon128.png" sizes="128x128" type="image/png">
+ <link rel="icon" href="stuff/favicon16.png" sizes="16x16" type="image/png">
+ <link rel="icon" href="stuff/favicon32.png" sizes="32x32" type="image/png">
+ <link rel="icon" href="stuff/favicon64.png" sizes="64x64" type="image/png">
+ <link rel="icon" href="stuff/favicon128.png" sizes="128x128" type="image/png">
 	<style type="text/css">
 		/*style start*/
 
@@ -14,6 +14,8 @@
 		/*UI Elements*/
 		hr {height: 1px; background-color: lightgray; margin-right: 100px; margin-left: 100px}
 		div {height: 300px; border: 1px solid #000; margin-right: 25%; margin-left: 25%; background-color: aliceblue; border-color: lavender}
+		html {background-color: darkslategrey;}
+		.button {border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;}
 		/*UI Elements*/
 
 		/*header*/
@@ -38,9 +40,25 @@
 
 		/*style end*/
 	</style>
-	<center><h1>envyniv's</h1></center>
-	<center>Personal Open-Source Hell</center>
-	<center><h6>(not in michigan)</h6></center>
+	<center>
+	<h1>envyniv's</h1>
+	Personal Badly Programmed, Open-Source Hell.
+	<h6>(not in michigan)</h6>
+
+	<button type="button" onclick="mdSwitch()" id="modeswitch">Light Mode</button>
+	<script>
+		function mdSwitch() {
+  			document.getElementById("modeswitch").innerHTML = "Dark Mode";
+		html {background-color: darkslategrey;}
+		}
+	</script>
+
+	 <audio controls autoplay>
+  		<source src="stuff/bg.ogg" type="audio/ogg">
+		Your browser does not support the audio element.
+	 </audio> 
+
+	</center>
 
 </head>
 
@@ -54,13 +72,21 @@
 		<hr> <!--Horizontal line-->
 
 			<div> <!--Rectangle start-->
-				<h4>Lorem ipsum</h4>
+				<h4>Project Hope</h4>
 					<hr style="background-color: CornflowerBlue; margin-right: 3.5%; margin-left: 3.5%;"> <!--Horizontal line-->
 					<p style="margin-right: 5%; margin-left: 5%;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
-					 <a style="margin-left: 7%" href="#">Source Here</a> 
+					 <a style="margin-left: 7%" href="Project-Hope">Source Here</a> 
+					 <a style="margin-left: 7%" href="https://gamejolt.com/games/lasthopeRPG/280185">Gamejolt Page</a> 
 
 			</div> <!--Rectangle end-->
-			
+
+			<div> <!--Rectangle start-->
+				<h4>What you're seeing right now</h4>
+					<hr style="background-color: CornflowerBlue; margin-right: 3.5%; margin-left: 3.5%;"> <!--Horizontal line-->
+					<p style="margin-right: 5%; margin-left: 5%;">it's probably making your eyes bleed.</p>
+					 <a style="margin-left: 7%" href="envyniv.github.io">Source Here</a> 
+
+			</div> <!--Rectangle end-->
 
 </body>
 
