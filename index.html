@@ -13,7 +13,17 @@
 
 		/*UI Elements*/
 		hr {height: 1px; background-color: lightgray; margin-right: 100px; margin-left: 100px}
-		div {height: 300px; border: 1px solid #000; margin-right: 25%; margin-left: 25%; background-color: aliceblue; border-color: lavender; display: inline-block}
+		div {height: 40%; border: 1px; background-color: aliceblue; border-color: lavender;}
+
+		#block_container
+		{
+    		text-align:center;
+		}
+		#bloc1, #bloc2, #bloc3
+		{
+    		display: inline;
+		}
+
 		html {background-color: lightslategrey;}
 		.button {border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;}
 		/*UI Elements*/
@@ -43,7 +53,7 @@
 	</style>
 	<center>
 	<h1>envyniv's</h1>
-	Personal Badly Programmed, Open-Source Hell.
+	Personal; Badly Programmed; Open-Source Hell.
 	<h6>(not in michigan)</h6>
 
 	<button type="button" onclick="mdSwitch()" id="modeswitch">Dark Mode</button>
@@ -54,8 +64,8 @@
 		}
 	</script>
 
-	<iframe width="20%" height="300" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1102889872&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-	<p>Last Hope OST by David</p>
+	<iframe width="20%" height="300" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1102889872&color=%23ff5500&auto_play=true&hide_related=false&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+	<p>Last Hope OST by <a href="https://soundcloud.com/dav4eva">David</a></p>
 	</center>
 
 </head>
@@ -69,7 +79,8 @@
 
 		<hr> <!--Horizontal line-->
 
-			<div> <!--Rectangle start-->
+<div id="block_container">
+			<div id="bloc1" style="float:left"> <!--Rectangle start-->
 				<h4>Project Hope</h4>
 					<hr style="background-color: CornflowerBlue; margin-right: 3.5%; margin-left: 3.5%;"> <!--Horizontal line-->
 					<p style="margin-right: 5%; margin-left: 5%;">
@@ -83,7 +94,7 @@
 
 			</div> <!--Rectangle end-->
 			
-			<div> <!--Rectangle start-->
+			<div id="bloc2"> <!--Rectangle start-->
 				<h4>RacersFont</h4>
 					<hr style="background-color: CornflowerBlue; margin-right: 3.5%; margin-left: 3.5%;"> <!--Horizontal line-->
 					<p style="margin-right: 5%; margin-left: 5%;">Open Source Recreation of The LEGO Racers Menu Font</p>
@@ -91,13 +102,14 @@
 
 			</div> <!--Rectangle end-->
 			
-			<div> <!--Rectangle start-->
+			<div id="bloc3"> <!--Rectangle start-->
 				<h4>What you're seeing right now</h4>
 					<hr style="background-color: CornflowerBlue; margin-right: 3.5%; margin-left: 3.5%;"> <!--Horizontal line-->
 					<p style="margin-right: 5%; margin-left: 5%;">it's probably making your eyes bleed.</p>
 					 <a style="margin-left: 7%" href="https://github.com/envyniv/envyniv.github.io">Source Here</a> 
 
 			</div> <!--Rectangle end-->
+</div>
 
 </body>
 
