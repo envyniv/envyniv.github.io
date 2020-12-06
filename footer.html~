@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        /*style start*/
+        html {background-color: #68548a; font-family:"Arial"; color: AliceBlue}
+        #block_container {
+          margin-right: 15%;
+          margin-left: 15%;
+          display: flex;
+          justify-content: center;
+          background-color: slategrey;
+          border-color: slategrey;
+        }
+        a{color: DarkBlue}
+        .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          color: AliceBlue
+        }
+        /*UI Elements*/
+
+        /*paragraph*/
+        p {font-size: 14px;}
+        .serif {font-family: "Times New Roman", Times, serif}
+        .sans-serif {font-family: Arial, Helvetica, sans-serif}
+        .monospace {font-family: "Lucida Console", Courier, monospace}
+        .impact {font-family: Impact, Charcoal, sans-serif}
+        .normal {font-style: normal}
+        .italic {font-style: italic}
+        .oblique {font-style: oblique}
+
+        /*paragraph*/
+
+        /*style end*/
+    </style>
+
+</head>
+
+<body>
+
+<center>
+
+<p>&nbsp;</p>
+ © 2020 Davide Azzaretto/envyniv
+<a href="https://gamejolt.com/@EnvyNival" class="fa fa-bolt"></a>
+<a href="https://github.com/envyniv" class="fa fa-github"></a>
+<a href="https://www.youtube.com/channel/UCErwEdNhRLN10PUkJXOAbpQ" class="fa fa-youtube"></a>
+<p>&nbsp;</p>
+</center>
+
+</body>
+</html>

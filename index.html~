@@ -217,6 +217,6 @@ Wanna ask me something? send an email to envy67@pm.me
 </body>
 </div>
 <footer>
-<embed type="text/html" src="footer.html" width=1908px; height=175px; style="margin-top: 20px; margin-left: -8px; margin-right:-8px; margin-bottom: -18px; overflow:hidden">
+<embed type="text/html" src="footer.html" width=100%; height=175px; style="margin-top: 20px; margin-left: -8px; margin-right:-8px; margin-bottom: -18px; overflow:hidden">
 </footer>
 </html>
