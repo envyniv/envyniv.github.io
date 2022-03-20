@@ -1,4 +1,0 @@
-var source=whichgame.getAttribute("value")
-var contentdiv=document.getElementById("content");
-contentdiv.setAttribute("src",source+".h");}
-

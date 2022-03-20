@@ -1,0 +1,145 @@
+/*style start*/
+
+
+/*UI Elements*/
+hr {
+  height: 3px;
+  background-color:#68548a;
+  margin-right: 1cm;
+  margin-left: 1cm;
+  border-width: 0px;
+  }
+.slim {
+  height:1px;
+  background-color:CornflowerBlue;
+  margin-right: 3.5%;
+  margin-left: 3.5%;
+}
+div {
+  height: 300px;
+  border: 1px solid #000;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: aliceblue;
+  border: none
+}
+html {background-color: #282a36; font-family:"Courier New"; color: #98abb2}
+#block_container { /* transparent */
+  display: flex;
+  justify-content: center;
+  background-color: #00000000;
+  border-color: #00000000;
+  height: auto;
+}
+a{color: DarkBlue}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: AliceBlue
+}
+input {
+  background: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  }
+input:hover {
+  background: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  }
+input:active {
+  background: none;
+  border: none;
+  color: #68548a;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  }
+
+#rcorners {
+  border-radius: 10px;
+  border: 1px solid #282a36;
+  background-color: #181a21;
+  color: white;
+  padding: 20px;
+  width: 80%;
+  height: auto;
+  margin: 1cm;
+}
+#rcorners a{color:CornflowerBlue;text-decoration:none}
+#rcorners h3{text-align:left}
+#rcorners hr{height: 1px; border:none; background-color: #52545e}
+
+#rcorners2 {
+  border-radius: 10px;
+  border: 1px solid #52545e;
+  background-color: #282a36;
+  color: white;
+  padding: 10px;
+  width: 70%;
+  height: 100%;
+}
+#rcorners2 h1{
+  font-size: 20px;
+  text-shadow: none;
+  margin-left: 0.35cm;
+}
+#rcorners2 a{color:CornflowerBlue;text-decoration:none}
+#rcorners2 h3{text-align:left}
+#rcorners2 hr{height: 1px; border:none; background-color: #52545e}
+#rcorners2 p{font-style: oblique; font-family: sans-serif;}
+
+#preview {
+  border: 0px;
+  width: 3cm;
+  height: 3cm;
+  overflow: hidden;
+  margin:auto;
+}
+/*UI Elements*/
+
+/*header*/
+h1 {text-align: left; text-shadow: 4px 4px 0px #68548a; font-size: 40px;}
+h2 {text-align: left; margin-left: 5%; font-size: 24px; color: CornflowerBlue}
+h3 {text-align: right}
+h4 {text-align: left; margin-left: 13%; color: CornflowerBlue}
+h5 {text-align: justify}
+h6 {}
+/*header*/
+
+/*markdown*/
+mark-down .h1 {text-align: left;}
+mark-down .h2 {text-align: left;}
+mark-down .h3 {text-align: left;}
+mark-down .h4 {text-align: left;}
+mark-down .h5 {text-align: left;}
+mark-down .h6 {text-align: left;}
+/*markdown*/
+
+/*paragraph*/
+p {font-size: 14px;}
+.serif {font-family: serif}
+.sans-serif {font-family: sans-serif}
+.monospace {font-family: monospace}
+.impact {font-family: sans-serif}
+.normal {font-style: normal}
+.italic {font-style: italic}
+.oblique {font-style: oblique}
+
+/*paragraph*/
+
+/*style end*/

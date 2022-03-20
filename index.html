@@ -5,158 +5,113 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <title>envyniv's hell</title>
     <link rel="shortcut icon" type="image/png" href="favicon.png">
-    <style>
-        /*style start*/
-
-
-        /*UI Elements*/
-        hr {
-          height: 3px;
-          background-color:#68548a;
-          margin-right: 100px;
-          margin-left: 100px
-          }
-        .slim {
-          height:1px;
-          background-color:CornflowerBlue;
-          margin-right: 3.5%;
-          margin-left: 3.5%;
-        }
-        div {height: 300px; border: 1px solid #000; margin-left: 40px; margin-right: 40px;background-color: aliceblue; border: none}
-        html {background-color: #282a36; font-family:"Courier New"; color: #98abb2}
-        #block_container {
-          margin-right: 15%;
-          margin-left: 15%;
-          display: flex;
-          justify-content: center;
-          background-color: slategrey;
-          border-color: slategrey;
-        }
-        a{color: DarkBlue}
-        .fa {
-          padding: 20px;
-          font-size: 30px;
-          width: 50px;
-          text-align: center;
-          text-decoration: none;
-          color: AliceBlue
-        }
-        input {
-          background: none;
-          border: none;
-          color: white;
-          padding: 15px 32px;
-          text-align: center;
-          display: inline-block;
-          font-size: 16px;
-          }
-        input:hover {
-          background: none;
-          border: none;
-          color: white;
-          padding: 15px 32px;
-          text-align: center;
-          display: inline-block;
-          font-size: 15px;
-          font-weight: bold;
-          }
-        input:active {
-          background: none;
-          border: none;
-          color: #68548a;
-          padding: 15px 32px;
-          text-align: center;
-          display: inline-block;
-          font-size: 16px;
-          font-weight: bold;
-          }
-        #rcorners2 {
-          border-radius: 10px;
-          border: 1px solid #52545e;
-          background-color: #282a36;
-          color: white;
-          padding: 20px;
-          width: 50%;
-          height: 100%;
-        }
-        #rcorners2 a{color:CornflowerBlue;text-decoration:none}
-        #rcorners2 h3{text-align:left}
-        #rcorners2 hr{height: 1px; border:none; background-color: #52545e}
-        /*UI Elements*/
-
-        /*header*/
-        h1 {text-align: left; text-shadow: 4px 4px 0px #68548a; font-size: 40px;}
-        h2 {text-align: left; margin-left: 5%; font-size: 24px; color: CornflowerBlue}
-        h3 {text-align: right}
-        h4 {text-align: left; margin-left: 13%; color: CornflowerBlue}
-        h5 {text-align: justify}
-        h6 {}
-        /*header*/
-
-        /*markdown*/
-        mark-down .h1 {text-align: left;}
-        mark-down .h2 {text-align: left;}
-        mark-down .h3 {text-align: left;}
-        mark-down .h4 {text-align: left;}
-        mark-down .h5 {text-align: left;}
-        mark-down .h6 {text-align: left;}
-        /*markdown*/
-
-        /*paragraph*/
-        p {font-size: 14px;}
-        .serif {font-family: "Times New Roman", Times, serif}
-        .sans-serif {font-family: Arial, Helvetica, sans-serif}
-        .monospace {font-family: "Lucida Console", Courier, monospace}
-        .impact {font-family: Impact, Charcoal, sans-serif}
-        .normal {font-style: normal}
-        .italic {font-style: italic}
-        .oblique {font-style: oblique}
-
-        /*paragraph*/
-
-        /*style end*/
-    </style>
+    <link href="style.css" rel="stylesheet" type="text/css">
 
 <div id=block_container style="margin: 0; background:none; border:none">
 
     <div style="margin: 0; background: none; border: none">
         <h1>envyniv's</h1>
-        Personal; <a href="stuff/footage-of-website-code.jpg" style="text-decoration: none; color: AliceBlue">Badly Programmed</a>; Open-Source Hell.
+        Personal; <a href="stuff/footage-of-website-code.jpg" style="text-decoration: none; color: AliceBlue">Badly Written</a>; Open-Source Hell.
         <h6>(not in michigan)</h6>
     </div>
-
-    <div id=block_container style="border: none; background:none; height:10%; margin-top:12%">
-         <input type="button" onclick="chgContent()" value="ABOUT">
-         <p>&nbsp;</p>
-         <input type="button" onclick="chgContent()" value="WORKS">
-         <p>&nbsp;</p>
-         <input type="button" onclick="chgContent()" value="NEWS">
-         <p>&nbsp;</p>
-         <input type="button" onclick="chgContent()" value="CONTACT">
-    </div>
-
 </div>
 
-<div style="margin:0px; border:none; width:100%; height:250px; overflow: hidden">
- <img src="stuff/AES2.png" style="width:100%; height:500%; object-position: 0px -500px; margin-left:0px;" class="Banner">
-</div>
+<hr>
 
 </head>
-
-<div style="background-color: #181a21; height:auto; margin: -8px; margin-top:-18px">
 <body>
-    <div id=rcorners2 style="margin-top: 30px; height:auto">
-        <script src="https://cdn.jsdelivr.net/npm/markdown-element/dist/markdown-element.min.js"></script>
-        <script>
-        var trial=fetch(stuff/WORKS.md)
-        var result=trial.text()
-        document.write("<mark-down>"+result+"</mark-down>");
-        </script>
-    </div>
-
+  <div id=rcorners>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-element/dist/markdown-element.min.js"></script>
+    <h1>MY WORKS</h1>
+          <div id=rcorners2>
+            <a href="https://github.com/envyniv/Project-Hope"><h1>Last H🔆PE</h1></a>
+            <hr>
+            <p>
+              My take on an RPG. Not really inspired from anything.
+            </p>
+            <div id=block_container>
+              <!-- <div id=preview>
+                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+              </div>
+              <div id=preview>
+                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+              </div>
+              <div id=preview>
+                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+              </div> -->
+            </div>
+          </div>
+          <br>
+          <div id=rcorners2>
+            <a href="https://github.com/envyniv/freedpm"><h1>DPMfree</h1></a>
+            <hr>
+            <p>
+              FreeDPM is a project that aims to create a standalone, open-source replacement of the "Denpa Men, The" Series's games, so that its charm may be felt on modern platforms. Development was rebooted in 2022.
+              <br><br>Another, secondary objective is compatibility with the original, proprietary games (mainly QR Code stuff and Generation)
+            </p>
+            <div id=block_container>
+              <div id=preview>
+                <a href="https://www.youtube.com/watch?v=2yaVttZoP04"><img src="http://img.youtube.com/vi/2yaVttZoP04/0.jpg"></a>
+              </div>
+              <!-- <div id=preview>
+                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+              </div>
+              <div id=preview>
+                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+              </div> -->
+            </div>
+          </div>
+          <br>
+          <div id=rcorners2>
+            <a href="https://github.com/envyniv/RacersFont"><h1>RacersFont</h1></a>
+            <hr>
+            <p>
+              An open source recreation (and Expansion) of the LEGO Racers Font, made in Fontforge
+            </p>
+            <div id=block_container>
+              <div id=preview>
+                <img src="stuff/RacersFont_preview.png">
+              </div>
+              <!-- <div id=preview>
+                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+              </div>
+              <div id=preview>
+                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+              </div> -->
+            </div>
+          </div>
+          <br>
+          <div id=rcorners2>
+            <a href="https://github.com/envyniv/GODO-Racers"><h1>GODO Racers</h1></a>
+            <hr>
+            <p>
+              Open-Source Reimplementation (Along with possible expansion) of the LEGO Racers engine, in Godot, aims to extract resources from the original game through python
+            </p>
+            <!-- <div id=block_container>
+              <div id=preview>
+                <img src="stuff/RacersFont_preview.png">
+              </div>
+              <div id=preview>
+                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+              </div>
+              <div id=preview>
+                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+              </div>
+            </div> -->
+          </div>
+          <br>
+          <div id=rcorners2>
+            <a href="https://github.com/envyniv/tf2-stuff"><h1>My tf2 config</h1></a>
+            <hr>
+            <p>
+              My TF2 (Team Fortress 2) config files, plugs into Mastercomfig
+            </p>
+          </div>
+      <!-- <a href="https://envyniv.github.io/Project-Hope"><img src="https://raw.githubusercontent.com/envyniv/Project-Hope/master/src/title.svg"></a> -->
+    </table>
+  </div>
 </body>
-</div>
 <footer>
-<embed type="text/html" src="footer.html" width=1908px; height=175px; style="margin-top: 20px; margin-left: -8px; margin-right:-8px; margin-bottom: -18px; overflow:hidden">
+<embed type="text/html" src="footer.html" width=100%; height=175px;>
 </footer>
 </html>
