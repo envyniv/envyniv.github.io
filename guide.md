@@ -41,8 +41,9 @@ Per il resto di voi coglioni:
 
 - INC < op > `;equiv. ad "i++" di C++, incrementa (di uno) < op >`
 - DEC < op > `;equiv. ad "i--" di C++, decrementa (di uno) < op >`
-- MUL < op > `;moltiplica AX per < op >` <!-- - IMUL < op > ;moltiplica AX per < op >, con segno --> 
-- DIV < op > `;divide AX per < op >` <!-- - IDIV < op > ;divide AX per < op >, con segno --> 
+- MUL < op > `;moltiplica AX per < op >` <!-- - IMUL < op > ;moltiplica AX per < op >, con segno -->
+- DIV < op > `;divide AX per < op >`
+- Resto in AH, Quoziente in AL <!-- - IDIV < op > ;divide AX per < op >, con segno --> 
 - ADD < op1 >, < op2 > `;somma < op2 > a < op1 >`
 - SUB < op1 >, < op2 > `;sottrae < op2 > a < op1 >`
 - LEA < op1 >, < op2 > `;copia l'indirizzo di < op2 > in < op1 >`
