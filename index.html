@@ -3,7 +3,8 @@
 
 <head>
  <title>nvyniv's hell</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon.png">
     <link href="style.css" rel="stylesheet" type="text/css">
 
 <div id=block_container style="margin: 0; background:none; border:none">
@@ -11,8 +12,25 @@
     <div style="margin: 0; background: none; border: none">
         <h1>envyniv's</h1>
         Personal; <a href="stuff/footage-of-website-code.jpg" style="text-decoration: none; color: AliceBlue">Badly Written</a>; Open-Source Hell.
-        <h6>(not in michigan)</h6>
+        <h6>(not based in michigan)</h6>
     </div>
+
+    <div id=block_container style="border: none; background:none; height:10%; margin-top:12%">
+      <input type="button" onclick="location.href='#about'" value="ABOUT">
+      <p>&nbsp;</p>
+      <input type="button" onclick="location.href='#works'" value="WORKS">
+      <p>&nbsp;</p>
+      <!--<input type="button" onclick="chgContent()" value="NEWS">
+      <p>&nbsp;</p>-->
+      <input type="button" onclick="location.href='#contact'" value="CONTACT">
+    </div>
+<!--
+    <div id=block_container style="margin: 0; background:none; border:none">
+      <a href="#about">About</a>
+      <br>
+      <a href="#works">My Works</a>
+    </div>
+-->
 </div>
 
 <hr>
@@ -21,7 +39,7 @@
 <body>
   <div id=rcorners>
     <script src="https://cdn.jsdelivr.net/npm/markdown-element/dist/markdown-element.min.js"></script>
-    <h1>MY WORKS</h1>
+    <h1><a name="works">MY WORKS</a></h1>
           <div id=rcorners2>
             <a href="https://github.com/envyniv/Project-Hope"><h1>Last H🔆PE</h1></a>
             <hr>
@@ -29,15 +47,31 @@
               My take on an RPG. Not really inspired from anything.
             </p>
             <div id=block_container>
-              <!-- <div id=preview>
-                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+
+              <div class=preview>
+                <a href="https://www.youtube.com/watch?v=dZG5bxYLYBU">
+                  <img src="http://img.youtube.com/vi/dZG5bxYLYBU/0.jpg" class="image">
+                  <div class="overlay">
+                    <img src="stuff/video.svg" class=image>
+                  </div>
+                </a>
               </div>
-              <div id=preview>
-                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
+
+              <div class=preview>
+                <a href="https://www.youtube.com/watch?v=AxijdKje0OY">
+                  <img src="http://img.youtube.com/vi/AxijdKje0OY/0.jpg" class="image">
+                  <div class="overlay">
+                    <img src="stuff/video.svg" class=image>
+                  </div>
+                </a>
               </div>
-              <div id=preview>
-                <img src=https://envyniv.github.io/Project-Hope/doc_stuff/custom_templates.png>
-              </div> -->
+
+              <div class=preview>
+                <a href="stuff/title_screen.png">
+                  <img src="stuff/title_screen.png" class="image">
+                </a>
+              </div>
+
             </div>
           </div>
           <br>
@@ -45,20 +79,35 @@
             <a href="https://github.com/envyniv/freedpm"><h1>DPMfree</h1></a>
             <hr>
             <p>
-              FreeDPM is a project that aims to create a standalone, open-source replacement of the "Denpa Men, The" Series's games, so that its charm may be felt on modern platforms. Development was rebooted in 2022.
+              FreeDPM is a project that aims to create an expansible codebase implementing the gameplay mechanics of the "Denpa Men, The" series of 3ds games.
               <br><br>Another, secondary objective is compatibility with the original, proprietary games (mainly QR Code stuff and Generation)
             </p>
             <div id=block_container>
-              <a href="https://www.youtube.com/watch?v=2yaVttZoP04">
-
-                <div class=preview>
+<!--
+              <div class=preview>
+                <a href="https://www.youtube.com/watch?v=2yaVttZoP04">
                   <img src="http://img.youtube.com/vi/2yaVttZoP04/0.jpg" class="image">
                   <div class="overlay">
                     <img src="stuff/video.svg" class=image>
                   </div>
-                </div>
+                </a>
+              </div>
+-->
+              <div class=preview>
+                <a href="https://www.youtube.com/watch?v=jUp0jYnuM3A">
+                  <img src="http://img.youtube.com/vi/jUp0jYnuM3A/0.jpg" class="image">
+                  <div class="overlay">
+                    <img src="stuff/video.svg" class=image>
+                  </div>
+                </a>
+              </div>
 
-              </a>
+              <div class=preview>
+                <a href="stuff/freedpm_title.png">
+                  <img src="stuff/freedpm_title.png" class="image">
+                </a>
+              </div>
+
             </div>
           </div>
           <br>
@@ -90,8 +139,55 @@
               My TF2 (Team Fortress 2) config files, plugs into Mastercomfig
             </p>
           </div>
+          <br>
+          <div id=rcorners2>
+            <h1>Coming soon...</h1>
+            <hr>
+            <p>
+              makeshift vr headset
+            </p>
+          </div>
+          <br>
+          <div id=rcorners2>
+            <h1>Coming soon...</h1>
+            <hr>
+            <p>
+              vanilla & modded minecraft servers
+            </p>
+          </div>
     </table>
   </div>
+
+  <div id=rcorners>
+    <h1><a name="about">ABOUT</a></h1>
+    <div id=block_container style="margin: 0; background:none; border:none">
+      <p>
+        Hi. I'm Davide, but the internet people know me as "envy", sometimes "envyniv" and "nival", "envyn" for friends.
+        <br>
+        I'm an aspiring Software Engineer/Programmer, with a passion for anything related to technology.
+        <br>
+        I'm also an Open-Source & Right to Repair advocate (i use arch btw)
+        <br>
+        I do the things I do for passion first, convenience second.
+        <br><br>
+        I don't have a source of income, but I plan on accepting donations for my works in the future.
+        <br>
+        <br>
+        <a name="contact">
+          <a href="https://twitter.com/deaumie_turnell">@deaumie_turnell on twitter</a>
+          <br><br>
+          <a href="mailto:daviawesome67@gmail.com">E-mail me and hope I read it</a>
+          <br><br>
+          <a href="https://discord.gg/bNkDkHW">Join my discord server</a>
+        </a>
+      </p>
+      <br>
+      <img src="https://raw.githubusercontent.com/envyniv/envyniv/master/branding.svg">
+      <img src="https://raw.githubusercontent.com/envyniv/envyniv/master/logo.svg">
+    </div>
+  </div>
+
+
 </body>
 <footer>
 <embed type="text/html" src="footer.html" width=100%; height=175px;>

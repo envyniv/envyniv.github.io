@@ -23,7 +23,7 @@ div {
   background-color: aliceblue;
   border: none
 }
-html {background-color: #282a36; font-family:"Courier New"; color: #98abb2}
+html {background-color: #282a36; font-family: sans-serif; color: #98abb2}
 #block_container { /* transparent */
   display: flex;
   justify-content: center;
@@ -102,6 +102,7 @@ input:active {
   overflow: hidden;
   margin:auto;
   position: relative;
+  background-color: #00000000;
 }
 .preview img{
   height:inherit;
@@ -126,11 +127,8 @@ input:active {
 .preview:hover .overlay {
  transform: scale(1);
 }
-
-/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
 .image {
  color: white;
- font-size: 20px;
  position: absolute;
  top: 50%;
  left: 50%;
@@ -147,15 +145,6 @@ h4 {text-align: left; margin-left: 13%; color: CornflowerBlue}
 h5 {text-align: justify}
 h6 {}
 /*header*/
-
-/*markdown*/
-mark-down .h1 {text-align: left;}
-mark-down .h2 {text-align: left;}
-mark-down .h3 {text-align: left;}
-mark-down .h4 {text-align: left;}
-mark-down .h5 {text-align: left;}
-mark-down .h6 {text-align: left;}
-/*markdown*/
 
 /*paragraph*/
 p {font-size: 14px;}
