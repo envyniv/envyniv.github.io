@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Donate to Envy</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <base target="_blank" href="#"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+      window.onload = () => {
+      var tysection = document.getElementById("ty");
+      var kofibut = document.getElementById("kofi");
+      
+      tysection.style.display = 'none';
+
+      kofibut.onclick = () => {
+      tysection.style.display = 'block';
+      donate.style.display = 'none';
+      }
+      }
+    </script>
+  </head>
+  <body>
+    <embed type="text/html" src="header.html" width="100%" height="250px"/>
+    <section id="donate">
+      <h1>Donate</h1>
+      <p>
+	You've probably been sent here by your will to support me and my projects. For such a noble act I, envyniv, thank you, O' kind stranger, for your kindness - and terrible money management skills.
+	<br /><br/>
+	Jokes apart, this really helps me curb expenses I have to endure because of my education and the <i>company-starting</i> process.
+	<br /><br />
+      </p>
+
+      <div id="block_container">
+	<div class="card">
+	  <img src="xmr.png" alt="Monero"/>
+	  <div class="container">
+	    <h1>Monero</h1>
+	    <p>
+	      For those who believe in the future of cryptocurrency.
+	    </p>
+	    <code>
+	      442YYYMMK4V9tY9xoVHHGFWdPV1ebGtYtH7bKvWf4uD33nwKk73yA8N3P36nHp7ypJMWAaG9oY6YQDaVs3SNTTKE6gxfrEh
+	    </code>
+	  </div>
+	</div>
+	
+	<div class="card">
+	  <img src="kofi.png" alt="Ko-fi"/>
+	  <div class="container">
+	    <h1>Ko-fi</h1>
+	    <p>
+	      If you wish to pay with more conventional means, this is the way.
+	    </p>
+	    <div id="block_container">
+	      <a id="kofi" class="button" href="https://ko-fi.com/envyniv">Go to Ko-fi</a>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </section>
+    <section id="ty">
+      <h1>Thank You!</h1>
+      <p>
+	Your donation means a lot.<br />
+	It allows people like me to keep working on passion projects<br />
+	And keep the spark alive.<br />
+	<br />
+	
+      </p>
+    </section>
+    <p class="secret"><i>
+      Time is of the essence<br/>
+      We live in the future<br/>
+      (Give us all your money)
+    </i></p>
+  </body>
+</html>
