@@ -74,32 +74,32 @@ p a:hover {
     transition: all .3s ease-in;
 }
 
-#rcorners > h1 {
+#rcorners h1 {
     text-align: left;
     text-shadow: 2px 2px 2px var(--washedoutpurple);
     font-size: 35px;
     color: seashell;
 }
 
-#rcorners > h2 {
+#rcorners h2 {
     text-align: left;
     margin-left: 5%;
     font-size: 24px;
     color: var(--beelzebub)
 }
 
-#rcorners > h3 {
+#rcorners h3 {
     text-align: left;
     margin-left: 10%;
 }
 
-#rcorners > h4 {
+#rcorners h4 {
     text-align: left;
     margin-left: 15%;
     color: var(--beelzebub);
 }
 
-#rcorners > h5 {
+#rcorners h5 {
     text-align: justify;
 }
 
@@ -246,7 +246,7 @@ hr {
 html {
     background-color: black;
     font-family: "Spinnaker", sans-serif;
-    color: var(--washedoutgrey)
+    color: var(--washedoutgrey);
 }
 
 #block_container { /* transparent */
@@ -255,16 +255,23 @@ html {
     height: auto;
 }
 
-#rcorners, .card {
-    border-radius: .5em;
+#rcorners, .card, .outline-2 {
+    border-radius: .7em;
     border: 1px solid var(--dark);
     background-color: var(--dark);
     color: white;
-    padding: 3%;
-    width: 50%;
+    padding: 2%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.outline-2 {
+    margin-left: 0;
+    width: 60%;
+    margin-right: 30%;
 }
 
 .card {
@@ -287,25 +294,26 @@ html {
     width:100%;
 }
 #table-of-contents {
-    border-radius: 2em;
-    border: 1px solid var(--light);
+    border-radius: 1em;
+    border: 0 solid var(--light);
     background-color: var(--light);
     color: white;
-    padding: 1%;
-    width: 22%;
-    height: 50vh;
-    margin-right: 1%;
+    padding: 0.3%;
+    width: 38%;
+    height: 90%;
     margin-top: auto;
     margin-bottom: auto;
+    margin-right: -5%;
     position: sticky;
     float: right;
-    line-height: 0.4;
-    overflow-y: scroll; 
+    line-height: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
     top: 25vh;
-    
 }
+
+
 #table-of-contents a {
-    font-size: 20px;
     font-weight: normal;
     text-decoration: none;
     text-shadow: none;
