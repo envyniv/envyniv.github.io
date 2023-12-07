@@ -9,6 +9,8 @@
     --transparent: #00000000;
     --dark:#181a21;
     --light: #343844;
+    --divbg: #ffffff10;
+    --inlinecodebg: #3a3d48;
 }
 
 .menu, .menu a, li, button {
@@ -124,7 +126,7 @@ h3 {
 
 code {
     color: yellowgreen;
-    background-color: #3a3d48;
+    background-color: var(--inlinecodebg);
     font-size: 14px;
     font-family: monospace;
     word-break: break-all;
@@ -243,7 +245,7 @@ hr {
 /*UI Elements*/
 html {
     background-color: black;
-    font-family: sans-serif;
+    font-family: "Spinnaker", sans-serif;
     color: var(--washedoutgrey)
 }
 
@@ -284,7 +286,7 @@ html {
     height:inherit;
     width:100%;
 }
-.secs {
+#table-of-contents {
     border-radius: 2em;
     border: 1px solid var(--light);
     background-color: var(--light);
@@ -302,43 +304,16 @@ html {
     top: 25vh;
     
 }
-.secs a {
+#table-of-contents a {
     font-size: 20px;
     font-weight: normal;
     text-decoration: none;
     text-shadow: none;
     color: #3498DB;
 }
-.secs a:hover {
+#table-of-contents a:hover {
     color: #9ac2dd;
     transition: all .3s ease;
-}
-.secs h1 {
-    font-size: 25px;
-}
-.secs a h1 {
-    text-align: left;
-    margin-left: 0%;
-}
-.secs h2 {
-    text-align: left;
-    margin-left: 7%;
-}
-.secs h3 {
-    text-align: left;
-    margin-left: 14%;
-}
-.secs h4 {
-    text-align: left;
-    margin-left: 21%;
-}
-.secs h5 {
-    text-align: left;
-    margin-left: 28%;
-}
-.secs h6 {
-    text-align: left;
-    margin-left: 35%;
 }
 
 blockquote {
