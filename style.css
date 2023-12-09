@@ -269,9 +269,13 @@ html {
 }
 
 .outline-2 {
-    margin-left: 0;
-    width: 60%;
-    margin-right: 30%;
+    width: 90%;
+    padding: 1%;
+    margin-top: 1em;
+}
+
+p img {
+    width: 100%;
 }
 
 .card {
@@ -294,24 +298,33 @@ html {
     width:100%;
 }
 #table-of-contents {
-    border-radius: 1em;
     border: 0 solid var(--light);
     background-color: var(--light);
     color: white;
     padding: 0.3%;
-    width: 38%;
-    height: 90%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: -5%;
-    position: sticky;
-    float: right;
     line-height: 1;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    top: 25vh;
 }
 
+@media only screen and (orientation: landscape) {
+    #table-of-contents {
+        position: sticky;
+        float: right;
+        border-radius: 1em;
+        width: 36%;
+        height: 70%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: -1vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        top: 5vh;
+    }
+    .outline-2 {
+        margin-left: 0;
+        width: 60%;
+        margin-right: 30%;
+    }
+}
 
 #table-of-contents a {
     font-weight: normal;
@@ -319,6 +332,7 @@ html {
     text-shadow: none;
     color: #3498DB;
 }
+
 #table-of-contents a:hover {
     color: #9ac2dd;
     transition: all .3s ease;
@@ -411,10 +425,6 @@ p {
     text-align: center;
     padding: 20px 0;
     font-size: 14px;
-}
-
-.grid > div > b {
-    font-size: 20px;
 }
 
 section#ty {
