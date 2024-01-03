@@ -5,28 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <base target="_blank" href="#"/>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript">
-      window.onload = () => {
-      var tysection = document.getElementById("ty");
-      var kofibut = document.getElementById("kofi");
-      
-      tysection.style.display = 'none';
-
-      kofibut.onclick = () => {
-      tysection.style.display = 'block';
-      donate.style.display = 'none';
-      }
-      }
-    </script>
+    <script type="text/javascript" src="donate.js"></script>
   </head>
   <body>
     <embed type="text/html" src="header.html" width="100%" height="250px"/>
     <section id="donate">
       <h1>Donate</h1>
       <p>
-	You've probably been sent here by your will to support me and my projects. For such a noble act I, envyniv, thank you, O' kind stranger, for your kindness - and terrible money management skills.
+	You've probably been sent here by your will to support me and my projects. For such a noble act I, envyniv, thank you, O' kind stranger, for your kindness.
 	<br /><br/>
-	Jokes apart, this really helps me curb expenses I have to endure because of my education and the <i>company-starting</i> process.
+	This really helps me curb expenses I have to endure because of my education and the <i>company-starting</i> process.
+        <br />
+        I'm gonna start so many companies, you have no idea.
 	<br /><br />
       </p>
 
@@ -41,6 +31,10 @@
 	    <code>
 	      442YYYMMK4V9tY9xoVHHGFWdPV1ebGtYtH7bKvWf4uD33nwKk73yA8N3P36nHp7ypJMWAaG9oY6YQDaVs3SNTTKE6gxfrEh
 	    </code>
+            <br />
+            <div id="block_container">
+              <a id="monero" class="button" target="_parent" href="#">I donated</a>
+            </div>
 	  </div>
 	</div>
 	
@@ -53,6 +47,20 @@
 	    </p>
 	    <div id="block_container">
 	      <a id="kofi" class="button" href="https://ko-fi.com/envyniv">Go to Ko-fi</a>
+	    </div>
+	  </div>
+	</div>
+        <div class="card">
+	  <img src="lp.png" alt="LiberaPay"/>
+	  <div class="container">
+	    <h1>LiberaPay</h1>
+	    <p>
+	      FREEDOM TO ALL!
+              LiberaPay, like Ko-fi, supports more conventional payment methods, while supporting more currencies and
+              generally aligning more with my principles of freedom.
+	    </p>
+	    <div id="block_container">
+	      <a id="liberapay" class="button" href="https://liberapay.com/envyniv">Go to LiberaPay</a>
 	    </div>
 	  </div>
 	</div>
